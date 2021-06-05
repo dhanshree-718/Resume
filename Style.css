@@ -1,0 +1,140 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background:  rgb(243, 239, 233);;
+    display: flex;
+    justify-content: center; 
+    align-items: top;
+    min-height: 30vh;
+
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-height: 1000px;
+    min-height: 100px;
+    background: rgb(243, 239, 233);
+    margin: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: 8cm 28cm;
+}
+.container .upper_side
+{
+    position: relative;
+    background: black;
+    padding: 50px;
+}
+.profileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1000px;
+    align-items: center;
+    font-family:  Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: turquoise;
+    font-size: 70px;
+    text-align: center;
+}
+.contact
+{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'rosaria';
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.container .lower_side
+{
+    position: relative;
+    background: white;
+    padding: 20px;
+    display: grid;
+    margin-bottom: 345px;
+    grid-template-rows: 1vh 1vh;
+}
+.summary
+{
+    position: relative;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'rosaria';
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+            .containerr .box { 
+                padding: 40px;
+                width: 105%;; 
+                margin-left: -35px; 
+                display:table; 
+            } 
+            .containerr .box .box-row { 
+                display:table-row; 
+            } 
+            .containerr .box .box-cell { 
+                display:table-cell; 
+                width:50%; 
+                padding:10px; 
+            } 
+            .containerr .box .box-cell.box1 { 
+                background: white; 
+                color: black; 
+                text-align:justify; 
+            } 
+            .containerr .box .box-cell.box1 .bgup{
+                background-color: turquoise;
+                margin-right: 530px;
+            }
+            .containerr .box .box-cell.box1 .bgup2{
+                background-color: turquoise;
+                margin-right: 360px;
+            }
+            .containerr .box .box-cell.box2 { 
+                background:white; 
+                text-align: justify; 
+                color: black; 
+            } 
+            .container .box .box-cell.box2 .skills{
+                margin-top: 200px;
+                margin-left: 10px;
+            
+              }
+              .container .box .box-cell.box2 .projecthead{
+                  margin-left: 10px;
+              }
+              .container .box .box-cell.box2 .skills{
+                margin-top: 20px;
+            
+              }
+               .container .box .box-row .box-cell.box2 .techskills
+    {
+                   width:200px;
+                  
+                   margin-left:20px;
+    }
+               .container .box .box-cell.box2 .softskills
+    {
+                   width:200px;
+                    margin-top:-135px;
+                    margin-left: 300px;
+      
+    }
+    .container .box .box-cell.box2 .education {
+        margin-left: 10px;
+    
+      }
+     
+    
